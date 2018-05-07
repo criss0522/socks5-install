@@ -199,13 +199,13 @@ if [ -e /etc/opt/ss5/ss5.conf ];then
 			service ss5 status;;
 		update)
 			rm -rf /usr/bin/socks5
-			wget -qO /usr/bin/socks5 "https://raw.githubusercontent.com/qinghuas/socks5-install/master/socks5.sh"
+			wget -qO /usr/bin/socks5 "https://raw.githubusercontent.com/criss0522/socks5-install/master/socks5.sh"
 			chmod 755 /usr/bin/socks5
 			echo "Update Done.";;
 		info)
 			clear
 			SHOW_SOCKS5
-			echo "GitHub : https://github.com/qinghuas/socks5-install"
+			echo "GitHub : https://github.com/criss0522/socks5-install"
 			echo "By : @qinghuas V.2.0.3 2018-03-25";;
 		*)
 			SHOW_SOCKS5
